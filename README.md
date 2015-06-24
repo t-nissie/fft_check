@@ -3,7 +3,8 @@ fft_check.F, a 3-dimensional FFT benchmark program written in Fortran
 fft_check.F is a benchmark program. It times
 in-place double-precision complex 3-dimensional FFT and
 in-place and out-of-place double-precision real 3-dimensional FFT.
-It is written in Fortran and parallelized with OpenMP.
+It is written in Fortran, using [FFTW](http://www.fftw.org)
+and parallelized with OpenMP.
 
 Homepage and download
 ---------------------
